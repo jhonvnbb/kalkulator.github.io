@@ -50,3 +50,22 @@ body {
     font-size: 25px;
     background-color: #eee;
 }
+
+@media screen and (max-width: 476px) {
+    .calculator {
+        width: 90%;
+        padding: 10px;
+        margin: 20px auto;
+    }
+
+    .display {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .buttons button {
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+    }
+}
