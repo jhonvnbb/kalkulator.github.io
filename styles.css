@@ -1,15 +1,44 @@
+body {
+    background-color: #212121;
+}
+.teks{
+    margin-top: 50px;
+}
+.teks h1 {
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    to {
+        text-shadow: 4px 4px 8px rgba(255, 255, 255, 0.8);
+    }
+}
+
+  
 .calculator {
     width: 300px;
-    margin: 100px auto;
+    margin: 50px auto;
     text-align: center;
-    border: 1px solid #010101;
-    padding: 18px;
+    border: 1px solid #fff;
+    padding: 20px;
 }
 
 .display {
-    padding: 5px;
-    width: 100%;
-    font-size: 20px;
+    padding: 7px;
+    width: 90%;
+    background-color: #ffffff;
+    color: red;
+    font-size: 25px;
     margin-bottom: 10px;
 }
 
